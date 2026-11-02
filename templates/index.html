@@ -45,20 +45,20 @@
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clip-rule="evenodd"></path></svg>
                 </a>
 
-                <a href="journey" class="link-action">
+                <a href="#journey" class="link-action">
                     Explore Journey
                 </a>
             </div>
 
             <div class="floating-card card-left">
                 <div class="card-img">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="landing img 1">
+                    <img src="{{ url_for('static', filename='img/stud_logo.png')}}" alt="landing img 1">
                 </div>
             </div>
 
             <div class="floating-card card-right">
                 <div class="card-img">
-                    <img src="{{ url_for('static', filename='img/img2.png')}}" alt="landing img 2">
+                    <img src="{{ url_for('static', filename='img/teach_logo.png')}}" alt="landing img 2">
                 </div>
             </div>
         </header>
@@ -107,7 +107,7 @@
                     <p>Start your session with our high-security authentication portal. Your data is encrypted and synced across all your devices.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img3.png')}}" alt="flow image">
                 </div>
             </div>
 
@@ -118,7 +118,7 @@
                     <p>Manage all your subjects, attendance logs, and student rosters from a single, beautiful unified stream.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img4.png')}}" alt="flow image">
                 </div>
             </div>
 
@@ -129,7 +129,7 @@
                     <p>Creating a new subject is a breeze. Just name it, and SnapClass generates everything you need to start tracking.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img5.png')}}" alt="flow image">
                 </div>
             </div>
 
@@ -140,7 +140,7 @@
                     <p>Use high-speed computer vision to scan the entire room. Our AI identifies every student from a single class photo in milliseconds.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img2.png')}}" alt="flow image">
                 </div>
             </div>
 
@@ -151,7 +151,7 @@
                     <p>Switch to voice mode for a futuristic roll-call. Students speak sequentially, and our AI matches their unique voice signatures.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img6.png')}}" alt="flow image">
                 </div>
             </div>
 
@@ -162,7 +162,7 @@
                     <p>Review and manage historical logs. View confidence scores, download CSV reports, and track long-term attendance trends.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img7.png')}}" alt="flow image">
                 </div>
             </div>
 
@@ -224,75 +224,44 @@
     <section id="student-journey" class="teacher-flow">
         <div class="flow-container">
             <div class="section-tag" style="text-align: center; margin-bottom: 40px; display: block">---Workflow---</div>
-            <h2 style="text-align: center; font-size: 3.5rem; margin-bottom:80px;">The Teacher's Journey</h2>
+            <h2 style="text-align: center; font-size: 3.5rem; margin-bottom:80px;">The Student's Journey</h2>
 
             <div class="flow-step">
                 <div class="flow-content">
-                    <div class="step-badge">STEP 01</div>
-                    <h3>Secure Login</h3>
-                    <p>Start your session with our high-security authentication portal. Your data is encrypted and synced across all your devices.</p>
+                    <div class="step-badge">Phase 01</div>
+                    <h3>Biometric Registration</h3>
+                    <p>Students register their FaceID and VoiceID once. Our AI securely stores these biometrics for
+                        all future class sessions.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img8.png')}}" alt="flow image">
                 </div>
             </div>
 
             <div class="flow-step">
                 <div class="flow-content">
-                    <div class="step-badge">STEP 02</div>
-                    <h3>Interactive Dashboard</h3>
-                    <p>Manage all your subjects, attendance logs, and student rosters from a single, beautiful unified stream.</p>
+                    <div class="step-badge">Phase 02</div>
+                    <h3>Instant Enrollment</h3>
+                    <p>Students join courses in seconds using QR codes or course links provided by their teachers. No tedious sign-up forms.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img11.png')}}" alt="flow image">
                 </div>
             </div>
+
 
             <div class="flow-step">
                 <div class="flow-content">
-                    <div class="step-badge">STEP 03</div>
-                    <h3>Course Management</h3>
-                    <p>Creating a new subject is a breeze. Just name it, and SnapClass generates everything you need to start tracking.</p>
+                    <div class="step-badge">Phase 03</div>
+                    <h3>Personal Dashboard</h3>
+                    <p>A unified view for students to track their attendance percentage across all subjects and
+                        receive real-time updates.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
+                    <img src="{{ url_for('static', filename='img/img10.png')}}" alt="flow image">
                 </div>
             </div>
 
-            <div class="flow-step">
-                <div class="flow-content">
-                    <div class="step-badge">STEP 04</div>
-                    <h3>FaceID Attendance</h3>
-                    <p>Use high-speed computer vision to scan the entire room. Our AI identifies every student from a single class photo in milliseconds.</p>
-                </div>
-                <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
-                </div>
-            </div>
-
-            <div class="flow-step">
-                <div class="flow-content">
-                    <div class="step-badge">STEP 05</div>
-                    <h3>Voice ID Attendance</h3>
-                    <p>Switch to voice mode for a futuristic roll-call. Students speak sequentially, and our AI matches their unique voice signatures.</p>
-                </div>
-                <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
-                </div>
-            </div>
-
-            <div class="flow-step">
-                <div class="flow-content">
-                    <div class="step-badge">STEP 06</div>
-                    <h3>Actionable Records</h3>
-                    <p>Review and manage historical logs. View confidence scores, download CSV reports, and track long-term attendance trends.</p>
-                </div>
-                <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/img1.png')}}" alt="flow image">
-                </div>
-            </div>
-
-            
         </div>
     </section>
 
@@ -302,7 +271,7 @@
         <h2>Ready to upgrade your classroom management?</h2>
         <p>Say goodbye to manual roll calls. SnapClass uses next-gen biometrics for seamless, secure, and instant classroom attendance. The future is just one click away.</p>
 
-        <a href="" class="btn-white">Start AI Attendance Now</a>
+        <a href="https://snapclass-vinit-sarang-main.streamlit.app/" class="btn-white">Start AI Attendance Now</a>
     </section>
 
     
